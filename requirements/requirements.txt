@@ -1,0 +1,28 @@
+# Core dependencies for Lyrical Complexity Pipeline
+lyricsgenius==3.0.1
+textstat==0.7.3
+pandas==2.1.4
+numpy==1.24.3
+requests==2.31.0
+
+# Database connectors
+psycopg2-binary==2.9.9
+snowflake-connector-python==3.6.0
+
+# Airflow and orchestration
+apache-airflow==2.8.1
+apache-airflow-providers-postgres==5.7.0
+apache-airflow-providers-snowflake==5.4.0
+
+# Data processing and analysis
+nltk==3.8.1
+textblob==0.17.1
+
+# Configuration and utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Development and testing
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
